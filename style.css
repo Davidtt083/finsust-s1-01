@@ -198,7 +198,7 @@ a {
 
 .princ:hover {
   background-color: rgba(0, 170, 191, 0.7);
-  border: solid #d18a29 4px;
+  border: solid #d18a29 5px;
   width: 75px;
   height: 75px;
 }
