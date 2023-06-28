@@ -41,7 +41,7 @@ jQuery(window).resize(function () {
 });
 
 
-function mostrarp(divNum,btns){
+function mostrarp(divNum){
 	document.getElementById("text1").classList.add("hide");
 	document.getElementById("text2").classList.add("hide");
 	document.getElementById("text3").classList.add("hide");
@@ -49,11 +49,15 @@ function mostrarp(divNum,btns){
 	document.getElementById("text5").classList.add("hide");
 	document.getElementById("text6").classList.add("hide");
 	document.getElementById("text7").classList.add("hide");
+	document.getElementById("text8").classList.add("hide");
+	document.getElementById("text9").classList.add("hide");
+	document.getElementById("text10").classList.add("hide");
+	document.getElementById("text11").classList.add("hide");
 
   
 	// Show the specific div
 	document.getElementById("text" + divNum).classList.remove("hide");
-	document.getElementById("btn" + btns).classList.remove("hide");
+	//document.getElementById("btn" + btns).classList.remove("hide");
 }
 
 function cerrar(){

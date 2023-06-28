@@ -68,7 +68,7 @@ a {
   display: flex;
   background-position: center;
   background-size: 102% 89%;
-  background-repeat:no-repeat ;
+  background-repeat: no-repeat;
   max-width: 100%;
   background-image: url("S5-Gg-14.png");
 }
@@ -82,7 +82,7 @@ a {
 .negro {
   width: 50%;
   height: 100vh;
-  
+
 }
 
 .letrasG {
@@ -128,21 +128,21 @@ a {
 
 .contep {
   position: absolute;
-  width: 73%;
-  height: 70%;
-  margin-top: -515px;
-  margin-left: 1%;
+  margin-top: 232px;
+  width: 96%;
+  height: 80px;
+  margin-left: 4%;
   display: flex;
 }
 
 .princ {
   color: rgba(0, 0, 0, 0);
   border-radius: 10px;
-  width: 18%;
-  height: 16%;
+  width: 70px;
+  height: 70px;
+  margin: 5px;
   border: solid #fff 2px;
-  margin-top: 40%;
-  margin-left: 6.25%;
+  border-radius: 50%;
   cursor: pointer;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
@@ -150,45 +150,49 @@ a {
   justify-content: center;
   text-align: center;
   line-height: 180px;
-  transition: all 1s;
+  transition: all 0.5s;
   box-shadow: 26px 23px 86px -24px rgba(0, 0, 0, 0.75);
   -webkit-box-shadow: 26px 23px 86px -24px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 26px 23px 86px -24px rgba(0, 0, 0, 0.75);
 }
-.btn1{
-  background-color: #000;
-  position: absolute;
-  margin-top: -392px;
-  margin-left: 695px;
+
+.btn1 {
+  background-color: #0f102b;
   line-height: 3.5;
   font-size: 19px;
   color: #ffffff;
-  height: 70px;
 }
 
-.btn2{
+.btn2 {
   margin-top: 214px;
 }
 
-.btn3{
+.btn3 {
   margin-top: 157px;
 }
-.btn4{
+
+.btn4 {
   margin-top: 110px;
 }
-.btn5{
+
+.btn5 {
   margin-top: 58px;
 }
-.btn6{
+
+.btn6 {
   margin-top: 16px;
 }
-.btn7{
+
+.btn7 {
   margin-top: -31px;
 }
 
 
 .princ:hover {
-  background-color: rgba(113, 113, 113, 0.7);
+  background-color: rgba(0, 170, 191, 0.7);
+  border: solid #fff 4px;
+  width: 75px;
+  height: 75px;
 }
 
 .nombre {
@@ -209,7 +213,7 @@ a {
   line-height: 3;
 }
 
-.cerrar{
+.cerrar {
   background-color: #ba2727;
   margin-top: -38px;
   width: 40px;
@@ -222,14 +226,14 @@ a {
   cursor: pointer;
 }
 
-.equis{
+.equis {
   color: #ffffff;
   font-weight: bolder;
   font-size: 20px;
   transform: translate(11px, 8px);
 }
 
-.plus{
+.plus {
   transform: translate(2px, -89px);
   line-height: 4.5;
 }
@@ -467,7 +471,7 @@ a {
   margin-top: -298px !important;
 }
 
-.novisited{
+.novisited {
   opacity: .4;
 }
 
@@ -477,7 +481,7 @@ a {
   margin-top: 10px;
 }
 
-.btnplay2{
+.btnplay2 {
   position: absolute;
   background-color: rgba(0, 0, 0, 1);
   color: #ffffff;
@@ -493,7 +497,7 @@ a {
   transition: all 1s;
 }
 
-.btnplay2 i{
+.btnplay2 i {
   margin-left: 6px;
   margin-top: 7px;
 }
@@ -556,7 +560,7 @@ a {
   display: none;
 }
 
-.titulos{
+.titulos {
   text-align: center;
   margin: 0;
   font-size: 25px;
@@ -567,23 +571,22 @@ a {
   margin-top: 100%;
 }
 
-.mo{
+.mo {
   margin-top: 50%;
 }
 
-.mf{
+.mf {
   margin-top: 6%;
 }
 
-.texto1{
+.texto1 {
   position: absolute;
-  margin-top: -335px;
-  margin-left: 234px;
-  width: 72%;
+  margin-top: -303px;
+  margin-left: 60px;
+  width: 90%;
   height: 41%;
-  background-color: #fff;
-  color: #000;
-  border: #000 solid 2px;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #ffffff;
   border-radius: 20px;
   font-family: Arial, Helvetica, sans-serif;
   padding-top: 2%;
@@ -591,68 +594,111 @@ a {
   padding-right: 16px;
   transition: all 1s;
   align-content: center;
-  text-align:justify;
+  text-align: justify;
   line-height: 21px;
   box-shadow: 26px 23px 86px -24px rgba(0, 0, 0, 0.75);
   -webkit-box-shadow: 26px 23px 86px -24px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 26px 23px 86px -24px rgba(0, 0, 0, 0.75);
 }
 
-.texto2{
+.texto2 {
   margin-top: -273px;
   margin-left: 234px;
   width: 72%;
   height: 15%;
 }
 
-.texto3{
+.texto3 {
   margin-top: -273px;
   margin-left: 234px;
   width: 72%;
   height: 23%;
 }
 
-.texto4{
+.texto4 {
   margin-top: -305px;
   margin-left: 234px;
   width: 72%;
   height: 36%;
 }
 
-.texto5{
+.texto5 {
   margin-top: -273px;
   margin-left: 234px;
   width: 72%;
   height: 30%;
 }
 
-.texto6{
+.texto6 {
   margin-top: -336px;
   margin-left: 189px;
   width: 76%;
   height: 45%;
 }
 
-.texto7{
+.texto7 {
   margin-top: -273px;
   margin-left: 234px;
   width: 72%;
   height: 20%;
 }
 
-h3{
+h3 {
   top: 0;
   bottom: 0;
 }
 
-.lista1{
+.lista1 {
   width: 71%;
   margin-left: 45px;
   margin-top: 10px;
 }
 
-li{
+li {
   line-height: 23px;
 
 }
 
+.parr {
+  margin-top: 10px;
+}
+
+.parr2 {
+  margin-top: 22px;
+}
+
+.parr3 {
+  margin-top: 10px;
+}
+
+.parr4 {
+  margin-top: 33px;
+}
+
+.parr5 {
+  margin-top: 36px;
+}
+
+.parr6 {
+  margin-top: 10px;
+}
+
+.parr7 {
+  margin-top: 10px;
+}
+
+.parr8 {
+  margin-top: 18px;
+}
+
+.parr9 {
+  margin-top: 10px;
+}
+
+.parr10 {
+  margin-top: 27px;
+}
+
+.parr11 {
+  margin-top: 23px;
+}
