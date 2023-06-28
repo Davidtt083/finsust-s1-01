@@ -156,6 +156,14 @@ a {
   -moz-box-shadow: 26px 23px 86px -24px rgba(0, 0, 0, 0.75);
 }
 
+.activo{
+  color: #d18a29 !important;
+  border: solid #d18a29 4px;
+  box-shadow: 26px 23px 86px -24px rgba(255, 255, 255, 0.75);
+  -webkit-box-shadow: 26px 23px 86px -24px rgba(255, 255, 255, 0.75);
+  -moz-box-shadow: 26px 23px 86px -24px rgba(255, 255, 255, 0.75);
+}
+
 .btn1 {
   background-color: #0f102b;
   line-height: 3.5;
@@ -190,7 +198,7 @@ a {
 
 .princ:hover {
   background-color: rgba(0, 170, 191, 0.7);
-  border: solid #fff 4px;
+  border: solid #d18a29 4px;
   width: 75px;
   height: 75px;
 }

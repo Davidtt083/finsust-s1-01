@@ -41,7 +41,7 @@ jQuery(window).resize(function () {
 });
 
 
-function mostrarp(divNum){
+function mostrarp(divNum,btns){
 	document.getElementById("text1").classList.add("hide");
 	document.getElementById("text2").classList.add("hide");
 	document.getElementById("text3").classList.add("hide");
@@ -54,10 +54,22 @@ function mostrarp(divNum){
 	document.getElementById("text10").classList.add("hide");
 	document.getElementById("text11").classList.add("hide");
 
+	document.getElementById("btn1").classList.remove("activo");
+	document.getElementById("btn2").classList.remove("activo");
+	document.getElementById("btn3").classList.remove("activo");
+	document.getElementById("btn4").classList.remove("activo");
+	document.getElementById("btn5").classList.remove("activo");
+	document.getElementById("btn6").classList.remove("activo");
+	document.getElementById("btn7").classList.remove("activo");
+	document.getElementById("btn8").classList.remove("activo");
+	document.getElementById("btn9").classList.remove("activo");
+	document.getElementById("btn10").classList.remove("activo");
+	document.getElementById("btn11").classList.remove("activo");
+
   
 	// Show the specific div
 	document.getElementById("text" + divNum).classList.remove("hide");
-	//document.getElementById("btn" + btns).classList.remove("hide");
+	document.getElementById("btn" + btns).classList.add("activo");
 }
 
 function cerrar(){
