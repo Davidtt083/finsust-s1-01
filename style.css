@@ -8,7 +8,7 @@
 
 .very-specific-design {
   width: 1000px;
-  height: 720px;
+  height: 614px;
   padding: 50px;
   text-align: center;
   background: white;
@@ -67,7 +67,7 @@ a {
 .bgcontenedor {
   display: flex;
   background-position: center;
-  background-size: 102% 89%;
+  background-size: 102% 106%;
   background-repeat: no-repeat;
   max-width: 100%;
   background-image: url("S5-Gg-14.png");
@@ -128,7 +128,7 @@ a {
 
 .contep {
   position: absolute;
-  margin-top: 232px;
+  margin-top: 189px;
   width: 96%;
   height: 80px;
   margin-left: 4%;
@@ -156,7 +156,7 @@ a {
   -moz-box-shadow: 26px 23px 86px -24px rgba(0, 0, 0, 0.75);
 }
 
-.activo{
+.activo {
   color: #d18a29 !important;
   border: solid #d18a29 4px;
   box-shadow: 26px 23px 86px -24px rgba(255, 255, 255, 0.75);
@@ -589,10 +589,10 @@ a {
 
 .texto1 {
   position: absolute;
-  margin-top: -303px;
+  margin-top: -238px;
   margin-left: 60px;
   width: 90%;
-  height: 41%;
+  height: 45%;
   background-color: rgba(255, 255, 255, 0.2);
   color: #ffffff;
   border-radius: 20px;
@@ -676,7 +676,7 @@ li {
 }
 
 .parr3 {
-  margin-top: 10px;
+  margin-top: 0px;
 }
 
 .parr4 {
